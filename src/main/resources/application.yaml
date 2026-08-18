@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/banking_db
-    username:
-    password:
+    username: postgres
+    password: admin
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
